@@ -1,0 +1,195 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+}
+
+.container {
+
+    background-color: #1f2124;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+
+}
+
+.navigation {
+
+    background-color: #2053a0;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+
+}
+
+.navigation img {
+
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+
+.links {
+
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+.links li {
+
+    margin-right: 100px;
+    color: aliceblue;
+    font-size: 22px;
+    
+
+}
+
+.links li a {
+
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.links li a:hover {
+
+    color: #5b8dd8;
+
+}
+
+.down {
+
+    margin-right: 60px;
+    font-size: 35px;
+    color: aliceblue;
+
+}
+
+.down:hover {
+
+    color: #5b8dd8;
+
+}
+
+.preview {
+
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 40px;
+    display: flex;
+
+}
+
+.view-left {
+
+    width: 50%;
+
+}
+
+.view-left h1 {
+
+    color: aliceblue;
+
+}
+
+.view-left img {
+
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+
+}
+
+.view-right {
+
+    background-color: aliceblue;
+    width: 360px;
+    height: 500px;
+    margin-right: 100px;
+    border-radius: 20px;
+
+}
+
+.front-text {
+
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 22px;
+
+}
+
+.view-body {
+
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+
+.about-body{
+
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+
+}
+
+.about-body p {
+
+    margin-left: 10px;
+
+}
+
+.work-body {
+
+    display: flex;
+    margin-top: 30px;
+    font-size: 22px;
+    align-items: center;
+
+}
+
+.work-body p {
+
+    margin-left: 10px;
+
+}
+
+.contact-body {
+
+    display: flex;
+    margin-top: 30px;
+    font-size: 22px;
+    align-items: center;
+
+}
+
+.contact-body p {
+
+    margin-left: 10px;
+
+}
+
+.links-body {
+
+    display: flex;
+    margin-top: 30px;
+    font-size: 22px;
+    align-items: center;
+
+}
+
+.links-body p {
+
+    margin-left: 10px;
+
+}
