@@ -11,7 +11,7 @@
 .container {
 
     background-color: #1f2124;
-    height: 100vh;
+    height: 200vh;
     width: 100%;
     align-items: center;
 
@@ -213,6 +213,194 @@
 }
 
 .work-body-bottom p {
+
+    margin-left: 10px;
+    
+
+}
+
+.about {
+
+    margin-top: 200px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about-left {
+
+    background-color: aliceblue;
+    height: 500px;
+    width: 450px;
+    border-radius: 20px;
+    margin-top: 50px;
+    
+
+}
+
+.about-left h1 {
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.about-left-first {
+
+    margin-top: 50px;
+
+}
+
+.about-left p {
+
+    margin-left: 20px;
+    font-size: 25px;
+
+}
+
+.note {
+
+    background-color: #4785e1;
+    color: aliceblue;
+    margin-top: 140px;
+    width: 400px;
+    margin-left: 25px;
+    height: 40px;
+    border-radius: 8px;
+
+}
+
+.note p {
+
+    margin-left: 40px;
+
+}
+
+.about-right {
+
+    margin-right: 100px;
+    background-color: aliceblue;
+    width: 450px;
+    height: 600px;
+    border-radius: 16px;
+
+}
+
+.about-right-first {
+
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 30px;
+
+}
+
+.about-java {
+
+    align-items: center;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 40px;
+    font-size: 30px;
+
+}
+
+.about-java p {
+
+    margin-left: 10px;
+
+}
+
+.about-c {
+
+    margin-top: 10px;
+    margin-left: 40px;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+
+}
+
+.about-c img {
+
+    width: 30px;
+    height: 30px;
+
+}
+
+.about-c p {
+
+    margin-left: 10px;
+
+}
+
+.combo-web {
+
+    margin-top: 10px;
+    margin-left: 40px;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+
+}
+
+.combo-web p {
+
+    margin-left: 10px;
+
+}
+
+.about-right-informations {
+
+    margin-left: 25px;
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+
+.about-location {
+
+    margin-top: 30px;
+    margin-left: 40px;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+
+}
+
+.about-location p {
+
+    margin-left: 10px;
+
+}
+
+.about-education {
+
+    margin-top: 10px;
+    margin-left: 40px;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+
+}
+
+.about-education p {
+
+    margin-left: 10px;
+
+}   
+
+.about-language {
+
+    margin-top: 10px;
+    margin-left: 40px;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+
+}
+
+.about-language p {
 
     margin-left: 10px;
 
