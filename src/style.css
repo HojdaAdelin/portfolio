@@ -11,7 +11,7 @@
 .container {
 
     background-color: #1f2124;
-    height: 200vh;
+    height: 300vh;
     width: 100%;
     align-items: center;
 
@@ -403,5 +403,149 @@
 .about-language p {
 
     margin-left: 10px;
+
+}
+
+.projects {
+
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.et {
+
+    height: 550px;
+    width: 380px;
+    background-color: aliceblue;
+    border-radius: 14px;
+
+}
+
+.et-mod .et img {
+
+    width: 340px;
+    height: 170px;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+    
+    
+
+}
+
+.lc {
+
+    height: 550px;
+    margin-left: 80px;
+    width: 380px;
+    background-color: aliceblue;
+    border-radius: 14px;
+
+}
+
+.lc-mod .lc img{
+
+    width: 340px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 170px;
+
+}
+
+.et h2 {
+
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.et p {
+
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 22px;
+    margin-right: 20px;
+
+}
+
+.et button {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 70px;
+    width: 340px;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: #2053a0;
+    color: aliceblue;
+    border: none;
+    border-radius: 12px;
+
+}
+
+.et button:hover {
+
+    background-color: #4785e1;
+
+}
+
+.et-mod img {
+
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 150px;
+
+}
+
+.lc-mod img {
+
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 230px;
+
+}
+
+.lc h2 {
+
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.lc p {
+
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 22px;
+    margin-right: 20px;
+
+}
+
+.lc button {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 340px;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: #2053a0;
+    color: aliceblue;
+    border: none;
+    border-radius: 12px;
+
+}
+
+.lc button:hover {
+
+    background-color: #4785e1;
 
 }
