@@ -549,3 +549,30 @@
     background-color: #4785e1;
 
 }
+
+.view-all-projects {
+
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+
+}
+
+.view-all-projects button {
+
+    margin-left: 400px;
+    width: 500px;
+    height: 40px;
+    border: none;
+    border-radius: 12px;
+    background-color: #2053a0;
+    color: aliceblue;
+
+}
+
+.view-all-projects button:hover {
+
+    background-color: #4785e1;
+
+}
