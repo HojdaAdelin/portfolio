@@ -11,7 +11,7 @@
 .container {
 
     background-color: #1f2124;
-    height: 300vh;
+    height: 400vh;
     width: 100%;
     align-items: center;
 
@@ -568,11 +568,165 @@
     border-radius: 12px;
     background-color: #2053a0;
     color: aliceblue;
+    font-size: 20px;
 
 }
 
 .view-all-projects button:hover {
 
     background-color: #4785e1;
+
+}
+
+.contact {
+
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 1000px;
+    height: 470px;
+    align-self: center;
+    background-color: aliceblue;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contact-left {
+
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.contact-right {
+
+    margin-right: 100px;
+    margin-top: 20px;
+
+}
+
+.contact-github {
+
+    display: flex;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 24px;
+    align-items: center;
+
+}
+
+.contact-github p {
+
+    margin-left: 10px;
+
+}
+
+.contact-github p:hover {
+
+    color:#4785e1;
+    cursor: pointer;
+
+}
+
+.contact-gmail {
+
+    display: flex;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 24px;
+    align-items: center;
+
+}
+
+.contact-gmail p {
+
+    margin-left: 10px;
+
+}
+
+.contact-gmail p:hover {
+
+    color:#4785e1;
+    cursor: pointer;
+
+}
+
+.contact-stack {
+
+    display: flex;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 24px;
+    align-items: center;
+
+}
+
+.contact-stack p {
+
+    margin-left: 10px;
+
+}
+
+.contact-stack p:hover {
+
+    color:#4785e1;
+    cursor: pointer;
+
+}
+
+#userName{
+
+    color:#2053a0;
+    border: 2px solid;
+    border-radius: 6px;
+    width: 240px;
+    height: 30px;
+    opacity: 50%;
+    font-size: 20px;
+    display: flex;
+
+}
+
+.name-input {
+
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+
+}
+
+.name-input p {
+
+    margin-left: 10px;
+    font-size: 22px;
+
+}
+
+.content-input {
+
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+#userContent {
+
+    color:#2053a0;
+    border: 2px solid;
+    border-radius: 6px;
+    width: 240px;
+    height: 200px;
+    opacity: 50%;
+    font-size: 20px;
+    
+
+}
+
+.content-input p {
+
+    font-size: 22px;
+    margin-left: 10px;
 
 }
