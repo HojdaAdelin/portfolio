@@ -720,7 +720,7 @@
     height: 200px;
     opacity: 50%;
     font-size: 20px;
-    
+    vertical-align: top;
 
 }
 
@@ -728,5 +728,24 @@
 
     font-size: 22px;
     margin-left: 10px;
+
+}
+
+.send-mail {
+
+    margin-top: 40px;
+    width: 240px;
+    border: none;
+    background-color: #2053a0;
+    color: aliceblue;
+    border-radius: 12px;
+    height: 40px;
+    font-size: 22px;
+
+}
+
+.send-mail:hover {
+
+    background-color: #4785e1;
 
 }
