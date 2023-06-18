@@ -11,7 +11,7 @@
 .container {
 
     background-color: #1f2124;
-    height: 400vh;
+    height: 410vh;
     width: 100%;
     align-items: center;
 
@@ -747,5 +747,118 @@
 .send-mail:hover {
 
     background-color: #4785e1;
+
+}
+
+.bottom-navigation {
+
+    background-color: #2053a0;
+    vertical-align: bottom;
+    height: 200px;
+    width: 100%;
+    margin-top: 200px;
+
+}
+
+.bottom-navigation {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bottom-nav-left {
+
+    margin-top: 20px;
+    margin-left: 80px;
+    align-items: center;
+
+}
+
+.bottom-nav-left a {
+
+    color: aliceblue;
+    font-size: 20px;
+    
+
+}
+
+.bottom-nav-left i {
+
+    color: aliceblue;
+    font-size: 34px;
+    margin-top: 20px;
+    margin-left: 16px;
+
+
+}
+
+.bottom-nav-left i:hover {
+
+    color: #5b8dd8;
+
+}
+
+.bottom-nav-left a:hover {
+
+    color: #5b8dd8;
+
+}
+
+.bottom-first-left {
+
+    margin-top: 10px;
+
+}
+
+.bottom-nav-center {
+
+    align-self: last baseline;
+    margin-bottom: 10px;
+    color: aliceblue;
+
+}
+
+.bottom-nav-right {
+
+    margin-top: 40px;
+    color: aliceblue;
+    margin-right: 60px;
+    align-items: center;
+
+
+}
+
+.bottom-nav-right i {
+
+    font-size: 32px; 
+    margin-left: 30px;   
+
+}
+
+.bottom-nav-right i:hover {
+
+    color: #5b8dd8;
+    cursor: pointer;
+
+}
+
+.bottom-nav-right p {
+
+    font-size: 22px;
+    color: aliceblue;
+
+}
+
+.bottom-first-right {
+
+    margin-top: 10px;
+
+}
+
+.bottom-nav-right p:hover {
+
+    color: #5b8dd8;
+    cursor: pointer;
 
 }

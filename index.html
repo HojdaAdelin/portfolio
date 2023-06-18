@@ -14,7 +14,7 @@
     
     <div class="container">
         
-        <div class="navigation">
+        <div class="navigation" id="navigation-view">
 
             <a href="index.html">
 
@@ -24,10 +24,10 @@
 
             <ul class="links">
 
-                <i class="fa-solid fa-circle-down down"></i>
+                <a href="#bottom-view"><i class="fa-solid fa-circle-down down"></i></a>
                 <li><a href="#contact-view">Contact</a></li>
                 <li><a href="#about-view">About</a></li>
-                <li><a href="src/pages/projects.html">Projects</a></li>
+                <li><a href="#projects-view">Projects</a></li>
 
             </ul>
             
@@ -132,7 +132,7 @@
         
         <div class="view-all-projects">
 
-            <button>Explore all projects</button>
+            <button onclick="projectsalert()">Explore all projects</button>
 
         </div>
         
@@ -142,7 +142,7 @@
 
                 <h1>Contact me!</h1>
                 <span class="contact-github"><i class="fa-brands fa-github"></i><p onclick='opener("https://github.com/HojdaAdelin")'>Hojda Adelin</p></span>
-                <span class="contact-gmail"><i class="fa-solid fa-envelope"></i><p onclick='opener("https://github.com/HojdaAdelin")'>adelinhojda07@gmail.com</p></span>
+                <span class="contact-gmail"><i class="fa-solid fa-envelope"></i><p onclick='copyToClipboard("adelinhojda07@gmail.com")'>adelinhojda07@gmail.com</p></span>
                 <span class="contact-stack"><i class="fa-brands fa-stack-overflow"></i><p onclick="alertshow()">Adelin Hojda</p></span>
 
 
@@ -169,6 +169,35 @@
                 <button class="send-mail" onclick="sendEmail()">Send</button>
                 
                 
+            </div>
+
+        </div>
+
+        <div class="bottom-navigation" id="bottom-view">
+
+            <div class="bottom-nav-left">
+                <a href="#navigation-view"><i class="fa-regular fa-circle-up"></i></a>
+                <a href="#contact-view"><p class="bottom-first-left">Contact</p></a>
+                <a href="#projects-view"><p>Projects</p></a>
+                <a href="#about-view"><p>About</p></a>
+
+            </div>
+
+
+            <div class="bottom-nav-center">
+
+                <p>©️ Hojda Adelin, All rights reserved</p>
+
+            </div>
+
+
+            <div class="bottom-nav-right">
+
+                <i class="fa-brands fa-github" onclick='opener("https://github.com/HojdaAdelin")'></i>
+                <p class="bottom-first-right" onclick='opener("https://github.com/HojdaAdelin?tab=repositories")'>Repository</p>
+                <p onclick='opener("https://github.com/HojdaAdelin/Eleven-Terminal")'>Eleven-Terminal</p>
+                <p onclick='opener("https://github.com/HojdaAdelin/legion-code")'>Legion Code</p>
+
             </div>
 
         </div>
