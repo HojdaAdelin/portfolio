@@ -862,3 +862,69 @@
     cursor: pointer;
 
 }
+
+.sn-mod img{
+
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 230px;
+
+}
+
+.sn {
+
+    height: 550px;
+    margin-left: 80px;
+    width: 380px;
+    background-color: aliceblue;
+    border-radius: 14px;
+
+}
+
+.sn h2 {
+
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.sn p {
+
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 22px;
+    margin-right: 20px;
+
+}
+
+.sn button {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 340px;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: #2053a0;
+    color: aliceblue;
+    border: none;
+    border-radius: 12px;
+
+}
+
+.sn button:hover {
+
+    background-color: #4785e1;
+
+}
+
+.sn-mod .sn img{
+
+    width: 340px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 260px;
+
+}
