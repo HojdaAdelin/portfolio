@@ -11,7 +11,7 @@
 .container {
 
     background-color: #1f2124;
-    height: 410vh;
+    height: 100%;
     width: 100%;
     align-items: center;
 
@@ -409,8 +409,7 @@
 .projects {
 
     margin-top: 100px;
-    margin-left: 200px;
-    width: 1000px;
+    width: 100%;
     height: 550px;
     display: flex;
     justify-content: space-around;
