@@ -553,14 +553,15 @@
 
     margin-top: 150px;
     display: flex;
+    width: 100%;
+    justify-content: center;
     align-items: center;
-    margin-left: 40px;
 
 }
 
 .view-all-projects button {
 
-    margin-left: 400px;
+    
     width: 500px;
     height: 40px;
     border: none;
@@ -580,8 +581,9 @@
 .contact {
 
     margin-top: 200px;
-    margin-left: 200px;
-    width: 1000px;
+    justify-self: center;
+    width: 60%;
+    margin-left: 20%;
     height: 470px;
     align-self: center;
     background-color: aliceblue;
