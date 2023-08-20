@@ -259,24 +259,6 @@
 
 }
 
-.note {
-
-    background-color: #4785e1;
-    color: aliceblue;
-    margin-top: 140px;
-    width: 400px;
-    margin-left: 25px;
-    height: 40px;
-    border-radius: 8px;
-
-}
-
-.note p {
-
-    margin-left: 40px;
-
-}
-
 .about-right {
 
     margin-right: 100px;
@@ -329,6 +311,30 @@
 }
 
 .about-c p {
+
+    margin-left: 10px;
+
+}
+
+.about-net {
+
+    margin-top: 10px;
+    margin-left: 40px;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+
+}
+
+.about-net img {
+
+    width: 30px;
+    height: 30px;
+    zoom: 100%;
+
+}
+
+.about-net p {
 
     margin-left: 10px;
 
@@ -927,5 +933,53 @@
     margin-top: 20px;
     margin-left: 20px;
     height: 260px;
+
+}
+
+.saveSpan {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.saveSpan h3 {
+
+    margin-top: 12px;
+    margin-left: 20px;
+
+}
+
+.legionSpan {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.legionSpan h3 {
+
+    margin-top: 12px;
+    margin-left: 20px;
+
+}
+
+.etSpan {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.etSpan h3 {
+
+    margin-top: 12px;
+    margin-left: 20px;
+
+}
+
+::selection {
+
+    background-color:#5b8dd8;
 
 }
