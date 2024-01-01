@@ -84,7 +84,7 @@
 .preview {
 
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 40px;
     display: flex;
 
@@ -98,15 +98,7 @@
 
 .view-left h1 {
 
-    color: aliceblue;
-
-}
-
-.view-left img {
-
-    width: 300px;
-    height: 300px;
-    margin-top: 100px;
+    color: #2053a0;
 
 }
 
@@ -115,6 +107,7 @@
     background-color: aliceblue;
     width: 360px;
     height: 470px;
+    margin-top: 5%;
     margin-right: 100px;
     border-radius: 20px;
 
@@ -223,8 +216,17 @@
 
     margin-top: 200px;
     margin-left: 40px;
+    margin-right: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
+}
+
+.about img {
+
+    margin-left: 35%;
+    width: 80px;
+    height: 80px;
 
 }
 
@@ -356,18 +358,10 @@
 
 }
 
-.about-right-informations {
-
-    margin-left: 25px;
-    margin-top: 30px;
-    font-size: 30px;
-
-}
-
 .about-location {
 
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 20px;
     align-items: center;
     display: flex;
     font-size: 30px;
@@ -383,7 +377,7 @@
 .about-education {
 
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 20px;
     align-items: center;
     display: flex;
     font-size: 30px;
@@ -399,7 +393,7 @@
 .about-language {
 
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 20px;
     align-items: center;
     display: flex;
     font-size: 30px;
@@ -981,5 +975,81 @@
 ::selection {
 
     background-color:#5b8dd8;
+
+}
+
+.cpp1, .cpp2, .cpp3, .cpp4, .cpp5 {
+
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 300px;
+    height: 300px;
+
+}
+
+.title-cpp {
+
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 24px;
+
+}
+
+.text-cpp {
+
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+
+}
+
+.vs-cpp {
+
+    font-style:oblique;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 22px;
+
+}
+
+.learn1 {
+
+    margin-top: 45px;
+    color:#2053a0;
+    font-size: 28px;
+    margin-left: 5%;
+
+}
+
+.learn2 {
+
+    margin-top: 70px;
+    color:#2053a0;
+    font-size: 28px;
+    margin-left: 35%;
+
+}
+
+.learn3 {
+
+    margin-top: 95px;
+    color:#2053a0;
+    font-size: 28px;
+    margin-left: 5%;
+
+}
+
+.learn4 {
+
+    margin-top: 70px;
+    color:#2053a0;
+    font-size: 28px;
+    margin-left: 35%;
+
+}
+
+.learn1:hover, .learn3:hover {
+
+    color: #699be6;
 
 }

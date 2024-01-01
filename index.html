@@ -28,8 +28,8 @@
 
                 <a href="#bottom-view"><i class="fa-solid fa-circle-down down"></i></a>
                 <li><a href="#contact-view">Contact</a></li>
-                <li><a href="#about-view">About</a></li>
-                <li><a href="#projects-view">Projects</a></li>
+                <li><a href="#about-view">Skills</a></li>
+                <li><a href="#about-view">Projects</a></li>
 
             </ul>
             
@@ -41,12 +41,20 @@
             <div class="view-left">
 
                 <h1>Welcome to my portfolio!</h1>
+                <div class="about-left">
 
-                <img src="assets/Adelin.png">
+                    <h1>I'm Adelin and I'm 16 yo.</h1>
+                    <p class="about-left-first">I'm passionate about programming and robotics.</p>
+                    <p>Hungry learner & conscientious.</p>
+                    <p>For me respect and truth are the most important thinks.</p>
+                    <span class="about-location"><i class="fa-solid fa-location-dot"></i><p>Maramures, Romania</p></span>
+                    <span class="about-education"><i class="fa-solid fa-building-columns"></i><p>"Dragos Voda" National College</p></span>
+                    <span class="about-language"><i class="fa-solid fa-globe"></i><p>Romanian, English</p></span>
+
+                </div>
+                
 
             </div>
-
-
 
             <div class="view-right">
 
@@ -55,7 +63,7 @@
                 <div class="view-body">
 
                     <span class="about-body"><i class="fa-solid fa-user"></i><p>About</p></span>
-                    <span class="work-body"><i class="fa-solid fa-briefcase"></i><p>Projects</p></span>
+                    <span class="work-body"><i class="fa-solid fa-briefcase"></i><p>Projects & Skills</p></span>
                     <span class="contact-body"><i class="fa-solid fa-phone"></i><p>Contact</p></span>
                     <span class="links-body"><i class="fa-brands fa-github"></i><p>Links</p></span>
 
@@ -69,81 +77,90 @@
         </div>
 
         <div class="about" id="about-view">
-
-            <div class="about-left">
-
-                <h1>I'm Adelin and I'm 15 yo.</h1>
-                <p class="about-left-first">I'm passionate about programming and robotics.</p>
-                <p>Hungry learner & conscientious.</p>
-                <p>For me respect and truth are the most important thinks.</p>
-
-                
-
-            </div>
-                   
-            <div class="about-right">
-
-                <p class="about-right-first">Skills</p>
-                <span class="about-java"><i class="fa-brands fa-java"></i><p>Beginner</p></span>
-                <span class="about-c"><img src="assets/c++.png"><p>Professional</p></span>
-                <span class="combo-web"><i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i><p>Professional</p></span>
-                <span class="about-net"><img src="assets/NET.png"><p>Professional</p></span>
-
-                <p class="about-right-informations">Informations</p>
-                <span class="about-location"><i class="fa-solid fa-location-dot"></i><p>Maramures, Romania</p></span>
-                <span class="about-education"><i class="fa-solid fa-building-columns"></i><p>"Dragos Voda" National College</p></span>
-                <span class="about-language"><i class="fa-solid fa-globe"></i><p>Romanian, English</p></span>
-
-            </div>  
-
-        </div>
-
-        <div class="projects" id="projects-view">
-
-            <div class="et-mod">
-                <img src="assets/c++.png">
-                <div class="et">
-                    
-                    
-                    <img src="assets/projects/ElevenTerminal.png">
-                    <span class="etSpan"><h2>Eleven Terminal</h2><h3>Version: 2.5</h3></span>
-                    <p>Eleven Terminal is a performance calculator based on terminal. It contains algebraic, geometric & complex calculations. Also in this app you can costumize the color, time & display.</p>
-                    <button onclick='opener("https://github.com/HojdaAdelin/Eleven-Terminal")'>Source code</button>
-
-                </div>
-            </div>
-
-
-            <div class="lc-mod">
-                <img src="assets/c++.png">
-                <div class="lc">
-
-                    <img src="assets/projects/LegionCode.png">
-                    <span class="legionSpan"><h2>Legion Code</h2><h3>Version: 1.3.3</h3></span>
-                    <p>Legion Code is a tool terminal working with directories, files, folders & windows commands. With this app you can modify files, (view, change, modify) directories and you can manage your windows os. This app also support Git.</p>
-                    <button onclick='opener("https://github.com/HojdaAdelin/legion-code")'>Source code</button>
-
-                </div>
-            </div>
-
-            <div class="sn-mod">
-                <img src="assets/c++.png">
-                <div class="sn">
-
-                    <img src="assets/projects/sw.png">
-                    <span class="saveSpan"><h2>SaveNet</h2><h3>Version: 1.3.0</h3></span>
-                    <p>SaveNet is a C++ file security project created in VS with CLI/C++. This can encrypt, decrypt & manage files. This also have a local password.</p>
-                    <button onclick='opener("https://github.com/HojdaAdelin/SaveNet")'>Source code</button>
-
-                </div>
-            </div>
-
             
-        </div>
-        
-        <div class="view-all-projects">
+            <div class="cpp1-misc">
 
-            <button onclick="projectsalert()">Explore all projects</button>
+                <img src="assets/c++.png">
+                <div class="cpp1">
+                    <p class="title-cpp">
+                        Save Net
+                    </p>
+                    <p class="text-cpp">
+                        SaveNet is a file security aplication that encrypt
+                        important files with a complex algorithm.
+                        It has a very clean GUI & a local password system.
+                    </p>
+                    <p class="vs-cpp">
+                        Version: 1.3.0
+                    </p>
+                    <a href="https://github.com/HojdaAdelin/SaveNet"><p class="learn1">
+                        Learn more >
+                    </p></a>
+                </div>
+
+            </div>
+
+            <div class="cpp2-misc">
+
+                <img src="assets/c++.png">
+                <div class="cpp2">
+                    <p class="title-cpp">
+                        Multi Encrypt
+                    </p>
+                    <p class="text-cpp">
+                        It's the SaveNet algorithm to encrypt but the free version.
+                        This is a C++ library to create encryption apps on Windows.
+                    </p>
+                    <p class="vs-cpp">
+                        Version: BETA
+                    <p>
+                    <p class="learn2">
+                        SOON
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="cpp3-misc">
+
+                <img src="assets/c++.png">
+                <div class="cpp3">
+                    <p class="title-cpp">
+                        Legion Code
+                    </p>
+                    <p class="text-cpp">
+                        A powerfull terminal that contains simple commands to perform complex actions.
+                    </p>
+                    <p class="vs-cpp">
+                        Version: 1.3.3
+                    </p>
+                    <a href="https://github.com/HojdaAdelin/legion-code"><p class="learn3">
+                        Learn more >
+                    </p></a>
+                </div>
+
+            </div>
+
+            <div class="cpp4-misc">
+
+                <img src="assets/java.png">
+                <div class="cpp4">
+                    <p class="title-cpp">
+                        Galaxy Impact
+                    </p>
+                    <p class="text-cpp">
+                        A Java game developed in Greenfoot with Space Invaders theme.
+                        A great shooter game for gamers.
+                    </p>
+                    <p class="vs-cpp">
+                        Version: 1.0
+                    </p>
+                    <p  class="learn4">
+                        SOON
+                    </p>
+                </div>
+
+            </div>
 
         </div>
         
@@ -188,7 +205,7 @@
             <div class="bottom-nav-left">
                 <a href="#navigation-view"><i class="fa-regular fa-circle-up"></i></a>
                 <a href="#contact-view"><p class="bottom-first-left">Contact</p></a>
-                <a href="#projects-view"><p>Projects</p></a>
+                <a href="#about-view"><p>Projects</p></a>
                 <a href="#about-view"><p>About</p></a>
 
             </div>
@@ -196,7 +213,7 @@
 
             <div class="bottom-nav-center">
 
-                <p>©️ Hojda Adelin, All rights reserved</p>
+                <p>©️ Hojda Adelin, All rights reserved, Version: 1.5</p>
 
             </div>
 
@@ -205,7 +222,7 @@
 
                 <i class="fa-brands fa-github" onclick='opener("https://github.com/HojdaAdelin")'></i>
                 <p class="bottom-first-right" onclick='opener("https://github.com/HojdaAdelin?tab=repositories")'>Repositories</p>
-                <p onclick='opener("https://github.com/HojdaAdelin/Eleven-Terminal")'>Eleven-Terminal</p>
+                <p onclick='opener("https://github.com/HojdaAdelin/SaveNet")'>SaveNet</p>
                 <p onclick='opener("https://github.com/HojdaAdelin/legion-code")'>Legion Code</p>
 
             </div>
