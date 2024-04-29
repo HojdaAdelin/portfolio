@@ -86,6 +86,7 @@ header .links .contact:hover {
 }
 
 .img-div img {
+    
     max-width: 300px;
     border-radius: 150px;
 }
@@ -112,4 +113,49 @@ header .links .contact:hover {
 .ico-links i:hover {
     color: rgba(255, 255, 255, 0.679);
     cursor: pointer;
+}
+
+.container2 {
+    background-color: #262629;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.awards, .skills {
+    background-color: #383737;
+    color: rgba(255, 255, 255, 0.679);
+    width: 40%;
+    height: 80vh;
+    border-radius: 40px;
+    border: 4px solid rgba(255, 255, 255, 0.679);
+}
+
+.awards h1, .skills h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 44px;
+}
+
+.awards h2, .skills h2 {
+    margin-left: 20px;
+    font-size: 36px;
+}
+
+.awards span, .skills span {
+    margin-top: 10px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.awards span i, .skills span i {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.awards span p, .skills span p {
+    font-size: 28px;
 }
