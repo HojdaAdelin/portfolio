@@ -151,6 +151,10 @@ header .links .contact:hover {
     align-items: center;
 }
 
+.skills span {
+    margin-top: 20px;
+}
+
 .awards span i, .skills span i {
     margin-right: 10px;
     font-size: 30px;
@@ -158,4 +162,13 @@ header .links .contact:hover {
 
 .awards span p, .skills span p {
     font-size: 28px;
+}
+
+.skills span i {
+    font-size: 40px;
+}
+
+.skills span img {
+    margin-right: 10px;
+    max-width: 40px;
 }
