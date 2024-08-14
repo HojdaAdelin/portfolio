@@ -15,124 +15,97 @@
 <body>
     
     <header>
-        <div class="name">
-            <h1 class="f1">Hojda </h1>
-            <h1 class="f2">Adelin</h1>
-        </div>
-        <div class="links">
-            <div class="projects">
-                <a href="#projects">Projects</a>
-            </div>
-            <div class="about">
-                <a href="#aboutme">About Me</a>
-            </div>
-            <div class="contact">
-                <a href="#contactid">Contact Me</a>
-            </div>
-            
-        </div>
+        <h1>Adelin Hojda</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <div class="container">
-        
-        <div class="img-div">
-            <img src="assets/Adelin.png" alt="HojdaAdelin">
-        </div>
-        <div class="sub-div">
-            <p>Welcome to my portfolio! I'm Adelin and I'm 16 yo.<br>Currently I'm a high school student dedicated for programming and cybersecurity.
-                <br>On this page you can view my work and the awards won.
-            </p>
-            <div class="ico-links">
-                <i class="fa-brands fa-github" onclick='opener("https://github.com/HojdaAdelin")'></i>
-                <i class="fa-brands fa-linkedin"onclick='opener("https://www.linkedin.com/in/adelin-hojda-69590a22b/")'></i>
+    <main>
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="content">
+                <img src="assets/new-logo.png" alt="Adelin Hojda">
+                <p>🌟 High school student passionate about technology and innovation 🖥️💡</p>
+                <p>🚀 Developing applications and managing personal projects on GitHub</p>
+                <p>🥇 Ranked 3rd in Informatics Olympiad at the county level</p>
+                <p>🔒 Top performer in Cybersecurity at the county level</p>
+                <p>💻 Enthusiastic about programming and cybernetics</p>
+                <p>🏋️‍♂️ Dedicated to fitness, including calisthenics training</p>
+                <p>📊 Actively involved in project management</p>
+                <p>🌐 Member of RoAlgo, fostering algorithms and coding excellence</p>
+                <div id="skills">
+                    <div class="skill">
+                        <img src="assets/c++.png" alt="C++">
+                        <p>C++</p>
+                    </div>
+                    <div class="skill">
+                        <img src="assets/python.png" alt="Python">
+                        <p>Python</p>
+                    </div>
+                    <div class="skill">
+                        <img src="assets/java.png" alt="Java">
+                        <p>Java</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
+        </section>
 
-    <div class="container2" id="aboutme">
-        <div class="awards">
-            <h1>Awards</h1>
-            <h2>2024</h2>
-            <span>
-                <i class="fa-solid fa-medal"></i>
-                <p>First place at the cyber security olympiad, regional phase</p>
-            </span>
-            <span>
-                <i class="fa-solid fa-medal"></i>
-                <p>Third place at the informatics olympiad, regional phase</p>
-            </span>
-        </div>
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                    <p>Details about the project, what it does, technologies used, and any other relevant information.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project Title 2</h3>
+                    <p>Details about the project, what it does, technologies used, and any other relevant information.</p>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </section>
 
-        <div class="skills">
-            <h1>Skills</h1>
-            <h2>Programming languages</h2>
-            <span>
-                <i class="fa-brands fa-python"></i> 
-                <p>Python - Few big personal projects</p>
-            </span>
-            <span>
-                <img src="assets/c++.png" alt="c++">
-                <p>C++ - Main programming language. One of my best project is made with C++ (SaveNet).
-                    I get the third place on informatic olympiad with C++ by resolving 
-                    algorithmic problems. Also I resolved over 1000+ problems on the main Romanian informatic site (pbinfo.ro). User: uncrowned
-                </p>
-            </span>
-            <span>
-                <i class="fa-brands fa-java"></i>
-                <p>Java - I made a game using this and Greenfoot for a Java Competition.</p>
-            </span>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/yourusername" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com/yourusername" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <!-- Add more social links as needed -->
         </div>
-    </div>
-    <div class="container3">
-        <div class="general">
-            <h1>Me</h1>
-            <p>I'm Adelin and I'm 16 yo. I'm a high school student dedicated for programming and cybersecurity but I also like 
-                physics and math. I am very ambitious and dedicated to personal development. Every time I want to spend developing me and become better.
-                My favorite hobby is informatics and solving algorithmic problems, but also working out.
-                I have not always been dedicated to programming and I started quite late, around the 8th grade.
-                I can say that it wasn't easy to learn very easily because I didn't have the proper tools, but over time I started to learn more and more and it became very easy to learn computer science.
-                At the moment I can say that I have found my true passion and the "gift" that was given to me, that of programming efficiently, quickly and constantly.
-                From my point of view, everyone should develop a strong discipline to advance in what they want.
-                My main goal in life would be to open a business :)) or to reach google</p>
-        </div>
-     
-    </div>
-    <div class="container4", id="projects">
-        <div class="projects-list">
-            <h1>Projects</h1>
-            <div class="p1">
-                <img src="assets/ss.png">
-                <img src="assets/projects/sw.png">
-                <img src="assets/projects/LegionCode.png">
-            </div>
-            <div class="p1-misc">
-                <span><a onclick='opener("https://github.com/HojdaAdelin/CodeNimble")'><h2>Code Nimble</h2></a><img src="assets/python.png"></span>
-                <span><a onclick='opener("https://github.com/HojdaAdelin/SaveNet")'><h2>SaveNet</h2></a><img src="assets/c++.png"></span>
-                <span><a onclick='opener("https://github.com/HojdaAdelin/legion-code")'><h2>Legion Code</h2></a><img src="assets/c++.png"></span>
-            </div>
-        </div>
-    </div>
-    
-    <div class="container5" id="contactid">
-        <div class="contact-left">
-            <h1>Contact Me</h1>
-            <img src="assets/Adelin.png">
-        </div>
-        <table class="contact-table">
-            <tr>
-                <td>Gmail</td>
-                <td><a href="mailto:adelinionut297@gmail.com">adelinionut297@gmail.com</a></td>
-            </tr>
-            <tr>
-                <td>Github</td>
-                <td><a href="https://github.com/HojdaAdelin" target="_blank">https://github.com/HojdaAdelin</a></td>
-            </tr>
-            <tr>
-                <td>LinkedIn</td>
-                <td><a href="https://www.linkedin.com/in/adelin-hojda-69590a22b/" target="_blank">https://www.linkedin.com/in/adelin-hojda-69590a22b/</a></td>
-            </tr>
-        </table>
-    </div>
+        <p>&copy; 2024 Adelin Hojda. All rights reserved.</p>
+    </footer>
     
 
 </body>
