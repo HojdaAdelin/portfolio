@@ -1,112 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Hojda Adelin's portfolio - with personal informations and projects">
-    <meta name="author" content="HojdaAdelin">
-    <title>Hojda Adelin's portfolio</title>
+    <meta name="author" content="Hojda Adelin">
+    <title>Hojda Adelin's Portfolio</title>
     <link rel="stylesheet" href="src/style.css">
     <script src="https://kit.fontawesome.com/65436a56f5.js" crossorigin="anonymous"></script>
-    <script src="src/script/mailProperty.js"></script>
-    <script src="src/script/main.js"></script>
 </head>
 <body>
-    
-    <header>
-        <h1>Adelin Hojda</h1>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h1>Hojda Adelin</h1>
+            <p>Student | Software Developer</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn primary-btn">About me</a>
+                <a href="#projects" class="btn secondary-btn">View Projects</a>
+            </div>
+        </div>
+    </section>
 
-    <main>
-        <!-- About Me Section -->
-        <section id="about">
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
             <h2>About Me</h2>
-            <div class="content">
-                <img src="assets/new-logo.png" alt="Adelin Hojda">
-                <p>🌟 High school student passionate about technology and innovation 🖥️💡</p>
-                <p>🚀 Developing applications and managing personal projects on GitHub</p>
-                <p>🥇 Ranked 3rd in Informatics Olympiad at the county level</p>
-                <p>🔒 Top performer in Cybersecurity at the county level</p>
-                <p>💻 Enthusiastic about programming and cybernetics</p>
-                <p>🏋️‍♂️ Dedicated to fitness, including calisthenics training</p>
-                <p>📊 Actively involved in project management</p>
-                <p>🌐 Member of RoAlgo, fostering algorithms and coding excellence</p>
-                <div id="skills">
-                    <div class="skill">
-                        <img src="assets/c++.png" alt="C++">
-                        <p>C++</p>
-                    </div>
-                    <div class="skill">
-                        <img src="assets/python.png" alt="Python">
-                        <p>Python</p>
-                    </div>
-                    <div class="skill">
-                        <img src="assets/java.png" alt="Java">
-                        <p>Java</p>
-                    </div>
+            <div class="about-content">
+                <img src="assets/Adelin.png" alt="Hojda Adelin's profile picture">
+                <p>
+                    Hi, I'm Adelin! Passionate about creating efficient and scalable software solutions. 
+                    With experience in frontend and backend development, I strive to deliver high-quality applications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill">
+                    <i class="fa-solid fa-c"></i>
+                    <h3>C/C++</h3>
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <h3>Git</h3>
+                </div>
+                <div class="skill">
+                    <i class="fa-brands fa-java"></i>
+                    <h3>Java</h3>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Projects Section -->
-        <section id="projects">
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
             <h2>Projects</h2>
-            <div class="project-grid">
+            <div class="projects-grid">
                 <div class="project-card">
-                    <img src="project1.jpg" alt="Project 1">
-                    <h3>Project Title 1</h3>
-                    <p>Details about the project, what it does, technologies used, and any other relevant information.</p>
+                    <img src="assets/codenimble.png" alt="CodeNimble">
+                    <h3>Code Nimble</h3>
+                    <p>Code Nimble is a light code editor dedicated for competitive programming.</p>
+                    <h4>Technologies:</h4>
+                    <p>Python, PySide6, Web scraping, File system</p>
+                    <h4>Features:</h4>
+                    <ul class="features-list">
+                        <li>Submit code on kilonova.ro & pbinfo.ro</li>
+                        <li>Fetch test cases from any platform</li>
+                        <li>Clean interface</li>
+                        <li>Templates</li>
+                        <li>C++ & python support</li>
+                        <li>Paint window</li>
+                        <li>LAN server</li>
+                        <li>Input, output & cxpected output</li>
+                    </ul>
+                    <a href="https://github.com/HojdaAdelin/CodeNimble" class="btn project-btn">View on GitHub</a>
+                    <a href="https://hojdaadelin.github.io/code-nimble/" class="btn project-btn">Website</a>
                 </div>
                 <div class="project-card">
-                    <img src="project2.jpg" alt="Project 2">
-                    <h3>Project Title 2</h3>
-                    <p>Details about the project, what it does, technologies used, and any other relevant information.</p>
+                    <img src="assets/savenet.png" alt="SaveNet">
+                    <h3>SaveNet</h3>
+                    <p>File security application created in C++ with a clean GUI.</p>
+                    <h4>Technologies:</h4>
+                    <p>C++, .NET, File system, Windows Forms, Cryptography</p>
+                    <h4>Features:</h4>
+                    <ul class="features-list">
+                        <li>Generate passwords</li>
+                        <li>Encrypt/Decrypt files</li>
+                        <li>Clean interface</li>
+                    </ul>
+                    <a href="https://github.com/HojdaAdelin/SaveNet" class="btn project-btn">View on GitHub</a>
                 </div>
                 <!-- Add more project cards as needed -->
             </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>Contact</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4"></textarea>
-
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
-
-    <!-- Footer Section -->
-    <footer>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/yourusername" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="https://twitter.com/yourusername" target="_blank">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <!-- Add more social links as needed -->
         </div>
-        <p>&copy; 2024 Adelin Hojda. All rights reserved.</p>
-    </footer>
-    
+    </section>
 
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Hojda Adelin. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/adelin-hojda-69590a22b/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/HojdaAdelin"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

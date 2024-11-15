@@ -1,306 +1,304 @@
-body, html {
+/* Reset și font */
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #121212;
-    color: #ffffff;
-    height: 100%;
-    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
 
-/* General Styles */
-header {
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #1f1f1f;
-    padding: 20px;
-    text-align: center;
-    z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+/* Stiluri generale */
+body {
+    line-height: 1.6;
+    background-color: #000; /* Fundal negru */
+    color: #fff; /* Text alb */
 }
 
-header h1 {
-    margin: 0;
-    font-size: 30px;
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-nav {
-    margin-top: 10px;
-}
-
-nav a {
-    margin: 0 15px;
-    color: #ffffff;
+/* Link-uri */
+a {
+    color: inherit;
     text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s;
 }
 
-nav a:hover {
-    color: #4CAF50;
-}
-
-section {
-    min-height: 100vh; /* Full screen height */
-    padding: 60px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-main {
-    padding-top: 100px;
-}
-
-/* Enhanced About Me Section */
-#about {
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
     text-align: center;
-    padding: 0 20px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.primary-btn {
+    background: #007bff; /* Albastru intens */
+    color: #fff;
+}
+
+.primary-btn:hover {
+    background: #0056b3; /* Albastru mai închis */
+}
+
+.secondary-btn {
+    background: #fff;
+    color: #000;
+}
+
+.secondary-btn:hover {
+    background: #ccc;
+}
+
+/* Hero Section */
+#hero {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #fff;
-    position: relative;
+    height: 100vh;
+    background: linear-gradient(135deg, #007bff, #000);
+    text-align: center;
 }
 
-#about:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
-    z-index: 1;
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
 
-#about h2 {
-    font-size: 36px;
+#hero p {
+    font-size: 1.5rem;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
-    z-index: 2;
+    color: #ddd;
 }
 
-#about .content {
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 800px;
+.hero-buttons .btn {
+    margin: 10px;
+}
+
+/* About Section */
+#about {
+    padding: 60px 0;
+    text-align: center;
 }
 
 #about img {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    margin-bottom: 20px;
-    border: 4px solid #4CAF50;
+    margin: 20px 0;
+    border: 3px solid #007bff;
 }
 
 #about p {
-    font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    border-radius: 10px;
-    margin: 10px 0;
-    text-align: left;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ccc;
 }
 
-/* Skill Section */
+/* Skills Section */
 #skills {
-    margin-top: 20px;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
 }
 
 .skill {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 10px 20px;
-    border-radius: 10px;
+    background: #111;
+    padding: 20px;
+    border-radius: 8px;
     text-align: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease;
+}
+
+.skill:hover {
+    background: #222;
+}
+
+.skill i {
+    font-size: 2rem;
+    color: #007bff;
     margin-bottom: 10px;
 }
 
-.skill img {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 10px;
-}
-
-.skill p {
-    margin: 0;
-    font-size: 16px;
+.skill h3 {
+    font-size: 1.2rem;
+    color: #ddd;
 }
 
 /* Projects Section */
 #projects {
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    padding: 60px 0;
     text-align: center;
 }
 
-#projects h2 {
-    font-size: 36px;
-    margin-bottom: 40px;
-}
-
-.project-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 }
 
 .project-card {
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 400px; /* Increased width */
-    height: 550px; /* Fixed height */
-    border-radius: 10px;
-    overflow: hidden; /* Ensures content stays within the card */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s;
-    display: flex;
-    flex-direction: column;
-}
-
-.project-card:hover {
-    transform: translateY(-10px);
+    background: #111;
+    padding: 20px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    text-align: left;
 }
 
 .project-card img {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    height: auto; /* Păstrează proporțiile naturale */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+.project-card h4 {
+    margin-top: 15px;
+    font-size: 1rem; /* Dimensiune mai mică decât h3 */
+    color: #ddd;
+}
+
+.features-list {
+    list-style-type: none; /* Eliminăm stilul implicit */
+    padding-left: 20px;
+}
+
+.features-list li {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.features-list li::before {
+    content: "•";
+    color: #007bff; /* Buline albastre */
+    font-size: 1.2rem;
+    position: absolute;
+    left: -15px; /* Poziționare în afara textului */
+    top: 0;
+}
+
+
+.project-card:hover {
+    background: #222;
 }
 
 .project-card h3 {
-    margin: 0;
-    padding: 20px;
-    font-size: 24px;
-    background-color: rgba(0, 0, 0, 0.6);
-    flex-shrink: 0;
+    color: #007bff;
+    font-size: 1.5rem;
 }
 
 .project-card p {
-    padding: 0 20px 20px;
-    font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.6);
-    overflow: hidden;
-    text-overflow: ellipsis; /* Adds ... if the text overflows */
-    word-wrap: break-word; /* Ensures text wraps to the next line */
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    flex-grow: 1;
+    color: #ccc;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.project-btn {
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project-btn:hover {
+    background: #0056b3;
 }
 
 /* Contact Section */
 #contact {
-    background: linear-gradient(to right, #0d171c, #192d33, #1c343f);
+    padding: 60px 0;
     text-align: center;
 }
 
-#contact h2 {
-    font-size: 36px;
-    margin-bottom: 40px;
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
 }
-
-#contact form {
-    display: inline-block;
-    width: 100%;
-    max-width: 400px;
-}
-
-#contact label {
-    display: block;
-    text-align: left;
-    margin-bottom: 10px;
-    font-size: 16px;
-}
-
-#contact input, #contact textarea {
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 20px;
-    border: none;
+#contact-form button.primary-btn {
+    padding: 10px;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background: #007bff;
     color: #fff;
-    font-size: 16px;
-}
-
-#contact button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 15px 25px;
+    font-size: 1rem;
+    font-weight: bold;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
+    transition: 0.3s ease;
 }
 
-#contact button:hover {
-    background-color: #45a049;
+#contact-form button.primary-btn:hover {
+    background: #0056b3;
+    cursor: pointer;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #222;
+    color: #fff;
+}
+
+button.primary-btn {
+    width: 100%;
 }
 
 /* Footer */
 footer {
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-    padding: 20px;
+    background: #111;
+    padding: 20px 0;
     text-align: center;
-    color: #777;
-}
-
-.social-icons {
-    margin-bottom: 10px;
-}
-
-.social-icons a {
-    color: #ffffff;
-    margin: 0 10px;
-    font-size: 24px;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.social-icons a:hover {
-    color: #4CAF50;
 }
 
 footer p {
-    margin-top: 10px;
-    font-size: 14px;
+    margin-bottom: 10px;
+    color: #ccc;
 }
 
-/* Responsive Design */
+footer .social-icons a {
+    margin: 0 10px;
+    color: #007bff;
+    font-size: 1.5rem;
+}
+
+footer .social-icons a:hover {
+    color: #0056b3;
+}
+
+/* Responsivitate */
 @media (max-width: 768px) {
-    header h1 {
-        font-size: 24px;
+    #hero h1 {
+        font-size: 2.5rem;
     }
 
-    nav a {
-        font-size: 16px;
-        margin: 0 10px;
+    #hero p {
+        font-size: 1.2rem;
     }
 
-    #about h2 {
-        font-size: 28px;
+    .projects-grid {
+        grid-template-columns: 1fr;
     }
 
-    #projects h2, #contact h2 {
-        font-size: 28px;
-    }
-
-    #contact form {
-        max-width: 300px;
+    .skills-grid {
+        grid-template-columns: 1fr;
     }
 }
