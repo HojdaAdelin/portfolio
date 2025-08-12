@@ -3,155 +3,281 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adelin - Software Engineer</title>
+  <meta name="description" content="Adelin Hojda - 17-Year-Old Software Developer with achievements in competitive programming and cybersecurity olympiads">
+  <meta name="keywords" content="Adelin Hojda, software developer, competitive programming, cybersecurity, olympiad, CodeNimble, SaveNet">
+  <meta name="author" content="Adelin Hojda">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Adelin Hojda - 17-Year-Old Software Developer">
+  <meta property="og:description" content="Portfolio showcasing achievements in competitive programming and cybersecurity olympiads">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/Adelin.png">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Adelin Hojda - 17-Year-Old Software Developer">
+  <meta name="twitter:description" content="Portfolio showcasing achievements in competitive programming and cybersecurity olympiads">
+  
+  <title>Adelin Hojda - 17-Year-Old Software Developer</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  
+  <!-- Custom Styles -->
   <link rel="stylesheet" href="src/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <!-- Navbar -->
-  <nav id="navbar">
-    <div class="container">
-      <a href="#hero" class="logo">Adelin</a>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="social-icons">
-        <a href="https://github.com/HojdaAdelin" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/adelin-hojda-69590a22b/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="mailto:adelinionut297@gmail.com"><i class="fas fa-envelope"></i></a>
+  <!-- Navigation Header -->
+  <header>
+    <nav id="navbar" class="navbar">
+      <div class="container">
+        <a href="#hero" class="logo">Adelin Hojda</a>
+        <ul class="nav-links" id="nav-links" aria-hidden="true">
+          <li><a href="#about">About</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="https://github.com/HojdaAdelin" target="_blank" aria-label="GitHub Profile">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/adelin-hojda-69590a22b/" target="_blank" aria-label="LinkedIn Profile">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:adelinionut297@gmail.com" aria-label="Email Contact">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+        <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
 
-  <!-- Hero Section -->
-  <section id="hero">
-    <div class="hero-content">
-      <h1>Hi, I'm Adelin!</h1>
-      <p>Passionate about creating efficient and scalable software solutions.</p>
-      <a href="#projects" class="cta-button">View My Work</a>
-    </div>
-    <canvas id="particle-canvas"></canvas>
-  </section>
-
-  <!-- About Section -->
-  <section id="about">
-    <div class="container">
-      <div class="about-content">
-        <div class="about-image">
-          <img src="assets/Adelin.png" alt="Adelin">
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <div class="hero-image">
+          <img src="assets/Adelin.png" alt="Adelin Hojda - Profile Photo" class="profile-image">
         </div>
-        <div class="about-text">
-          <h2>About Me</h2>
-          <p>With experience in frontend and backend development, I strive to deliver high-quality applications.</p>
-          <div class="skill-icons">
-            <i class="fab fa-html5" title="HTML"></i>
-            <i class="fab fa-css3-alt" title="CSS"></i>
-            <i class="fab fa-python" title="Python"></i>
-            <i class="fab fa-java" title="Java"></i>
-            <i class="fab fa-c" title="C++/C"></i>
-          </div>
-        </div>
+        <h1>Adelin Hojda</h1>
+        <p class="hero-subtitle">17-Year-Old Software Developer</p>
+        <p class="hero-description">Active in computer science and algorithms field with achievements in competitive programming and cybersecurity olympiads</p>
+        <a href="#projects" class="cta-button">View My Work</a>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Skills Section -->
-  <section id="skills">
-    <div class="container">
-      <h2>My Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-card">
-          <i class="fab fa-html5"></i>
-          <h3>HTML</h3>
-          <div class="progress-bar">
-            <div class="progress" style="width: 90%;"></div>
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="assets/Adelin.png" alt="Adelin Hojda - Professional Photo" class="about-profile-image">
           </div>
-        </div>
-        <div class="skill-card">
-          <i class="fab fa-css3-alt"></i>
-          <h3>CSS</h3>
-          <div class="progress-bar">
-            <div class="progress" style="width: 85%;"></div>
+          <div class="about-text">
+            <div class="about-intro">
+              <h3>17 Years Old Software Developer</h3>
+              <p class="current-focus">Currently focused on competitive programming and algorithm optimization</p>
+            </div>
+            
+            <div class="about-journey">
+              <p>My journey in computer science began with a passion for problem-solving and has evolved into a dedicated pursuit of excellence in competitive programming. Over the years, I've participated in numerous olympiads, consistently achieving top placements at both county and national levels.</p>
+              
+              <p>What drives me is the challenge of finding elegant solutions to complex problems. From my early days learning programming fundamentals to competing in cybersecurity olympiads, each experience has shaped my understanding of algorithms and software development.</p>
+              
+              <p>I believe in continuous learning and pushing the boundaries of what's possible through code. My achievements in competitive programming reflect not just technical skills, but also the persistence and analytical thinking that define my approach to software development.</p>
+            </div>
+            
+            <div class="tech-stack">
+              <h3>Technology Stack</h3>
+              <div class="tech-icons">
+                <div class="tech-icon" title="Python">
+                  <i class="fab fa-python"></i>
+                  <span>Python</span>
+                </div>
+                <div class="tech-icon" title="C++">
+                  <i class="fas fa-code"></i>
+                  <span>C++</span>
+                </div>
+                <div class="tech-icon" title="HTML5">
+                  <i class="fab fa-html5"></i>
+                  <span>HTML5</span>
+                </div>
+                <div class="tech-icon" title="CSS3">
+                  <i class="fab fa-css3-alt"></i>
+                  <span>CSS3</span>
+                </div>
+                <div class="tech-icon" title="Git">
+                  <i class="fab fa-git-alt"></i>
+                  <span>Git</span>
+                </div>
+                <div class="tech-icon" title="Qt Framework">
+                  <i class="fas fa-window-maximize"></i>
+                  <span>Qt</span>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="skill-card">
-          <i class="fab fa-python"></i>
-          <h3>Python</h3>
-          <div class="progress-bar">
-            <div class="progress" style="width: 80%;"></div>
-          </div>
-        </div>
-        <div class="skill-card">
-          <i class="fab fa-java"></i>
-          <h3>Java</h3>
-          <div class="progress-bar">
-            <div class="progress" style="width: 75%;"></div>
-          </div>
-        </div>
-        <div class="skill-card">
-          <i class="fab fa-c"></i>
-          <h3>C++/C</h3>
-          <div class="progress-bar">
-            <div class="progress" style="width: 85%;"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <h3>CodeNimble</h3>
-          <p>A lightweight code editor for competitive programming.</p>
-          <ul>
-            <li>Python, PySide6, Web Scraping</li>
-            <li>Submit code on platforms like kilonova.ro</li>
-            <li>Fetch test cases from any platform</li>
-          </ul>
-          <a href="https://github.com/HojdaAdelin/codenimble" target="_blank" class="project-button">View on GitHub</a>
-        </div>
-        <div class="project-card">
-          <h3>SaveNet</h3>
-          <p>A file security application with encryption features.</p>
-          <ul>
-            <li>C++, .NET, Cryptography</li>
-            <li>Encrypt/Decrypt files</li>
-            <li>Generate secure passwords</li>
-          </ul>
-          <a href="https://github.com/HojdaAdelin/savenet" target="_blank" class="project-button">View on GitHub</a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <form id="contact-form">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
-  </section>
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+      <div class="container">
+        <h2>Achievements</h2>
+        <p class="section-subtitle">Recognition earned through dedication to competitive programming and cybersecurity excellence</p>
+        <div class="achievements-grid">
+          <article class="achievement-card">
+            <div class="achievement-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <div class="achievement-rank">70th</div>
+            <h3>National Placement</h3>
+            <p class="achievement-title">Computer Science Olympiad</p>
+            <span class="achievement-level">National Level</span>
+          </article>
+          
+          <article class="achievement-card">
+            <div class="achievement-icon">
+              <i class="fas fa-medal"></i>
+            </div>
+            <div class="achievement-rank">1st</div>
+            <h3>Place & Qualified for National</h3>
+            <p class="achievement-title">County Computer Science Olympiad - 10th Grade</p>
+            <span class="achievement-level">County Level</span>
+          </article>
+          
+          <article class="achievement-card">
+            <div class="achievement-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <div class="achievement-rank">1st</div>
+            <h3>Place Winner</h3>
+            <p class="achievement-title">County Cybersecurity Olympiad - 9th Grade</p>
+            <span class="achievement-level">County Level</span>
+          </article>
+          
+          <article class="achievement-card">
+            <div class="achievement-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <div class="achievement-rank">3rd</div>
+            <h3>Place Achievement</h3>
+            <p class="achievement-title">County Computer Science Olympiad - 9th Grade</p>
+            <span class="achievement-level">County Level</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="section-subtitle">Featured software development projects showcasing technical skills and innovation</p>
+        <div class="projects-grid">
+          <article class="project-card featured">
+            <div class="project-image">
+              <img src="assets/codenimble.png" alt="CodeNimble Project Screenshot">
+              <div class="project-overlay">
+                <div class="project-overlay-content">
+                  <i class="fas fa-external-link-alt"></i>
+                  <span>View Project</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3>CodeNimble</h3>
+                <span class="project-status">Featured</span>
+              </div>
+              <p class="project-description">A lightweight, powerful code editor designed specifically for competitive programming enthusiasts. Built with Python and Qt framework, CodeNimble streamlines the coding workflow with intelligent features including automated code submission to popular competitive programming platforms, efficient test case fetching, and optimized performance for algorithm development.</p>
+              <div class="project-features">
+                <div class="feature-item">
+                  <i class="fas fa-code"></i>
+                  <span>Competitive Programming Focused</span>
+                </div>
+                <div class="feature-item">
+                  <i class="fas fa-upload"></i>
+                  <span>Platform Integration</span>
+                </div>
+                <div class="feature-item">
+                  <i class="fas fa-flask"></i>
+                  <span>Test Case Management</span>
+                </div>
+              </div>
+              <div class="project-tech">
+                <span class="tech-tag primary">Python</span>
+                <span class="tech-tag secondary">Qt Framework</span>
+                <span class="tech-tag secondary">GUI Development</span>
+                <span class="tech-tag secondary">Web Integration</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/HojdaAdelin/CodeNimble" target="_blank" class="project-link primary" aria-label="View CodeNimble on GitHub">
+                  <i class="fab fa-github"></i>
+                  <span>GitHub Repository</span>
+                </a>
+                <a href="https://hojdaadelin.github.io/code-nimble/" target="_blank" class="project-link secondary" aria-label="View CodeNimble live demo">
+                  <i class="fas fa-external-link-alt"></i>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+          <p>I'm always interested in discussing new opportunities, collaborations, or just connecting with fellow developers and competitive programmers.</p>
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:adelinionut297@gmail.com">adelinionut297@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/HojdaAdelin" target="_blank">GitHub Profile</a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/adelin-hojda-69590a22b/" target="_blank">LinkedIn Profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
-  <footer>
+  <footer class="footer">
     <div class="container">
-      <p>© 2023 Adelin. All rights reserved.</p>
-      <a href="#hero" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+      <p>&copy; 2024 Adelin Hojda. All rights reserved.</p>
+      <a href="#hero" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+      </a>
     </div>
   </footer>
 
+  <!-- Scripts -->
   <script src="src/script.js"></script>
 </body>
 </html>
